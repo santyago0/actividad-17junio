@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'app01',
 ]
 
-'''JAZZMIN_SETTINGS = {
+JAZZMIN_SETTINGS = {
     # Login
     "site_title": "Admin ProjectDemo",
     "welcome_sign": "Bienvenido a modo Admin de ProjectDemo",
@@ -49,7 +49,9 @@ INSTALLED_APPS = [
 
     # Menu user
     "navigation_expanded": False,
-}'''
+    "default_icon_parents": "fas fa-arrow-right",
+    "default_icon_children": "fas fa-minus",
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
